@@ -1,0 +1,14 @@
+---
+- name: Pull docker image of Calculator
+  hosts: all
+  become: true
+  vars:
+    ansible_python_interpreter: /bin/python3
+  tasks:
+    - name: system name
+      shell:
+        cmd: who 
+    - name: Pull image
+      docker_image:
+        name: sreya2708/caldevops
+        source: pull
