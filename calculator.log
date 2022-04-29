@@ -95,3 +95,5 @@
 2022-04-14 12:50:14.215 [main] ERROR calculator.Calculator - squre root cant be calculated for negative numbers
 2022-04-14 12:50:14.215 [main] INFO  calculator.Calculator - [SQ ROOT] - -7.0
 2022-04-14 12:50:14.216 [main] INFO  calculator.Calculator - [RESULT - SQ ROOT] - NaN
+
+
